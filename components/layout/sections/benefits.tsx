@@ -10,45 +10,45 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Droplets",
+    title: "Water Efficiency",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "AI-powered control ensures crops get just the right amount of water—saving up to 40% in usage.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "Leaf",
+    title: "Boosted Crop Yield",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Real-time soil data helps farmers grow healthier plants and achieve higher productivity.",
   },
   {
-    icon: "Wallet",
-    title: "Higher Conversions",
+    icon: "Wifi",
+    title: "IoT Connectivity",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Remotely monitor and manage irrigation through our connected web and mobile platforms.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "Users",
+    title: "Community Empowerment",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Trains local youths to build and maintain systems, creating jobs and sustainability in rural areas.",
   },
 ];
 
 export const BenefitsSection = () => {
   return (
-    <section id="benefits" className="container py-24 sm:py-32">
+    <section id="benefits" className="container py-24 sm:py-32 bg-neutral-200">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+          <h2 className="text-lg text-primary mb-2 tracking-wider">
+            Benefits
+          </h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Smarter Farming, Real Impact
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            GreenFlow makes smart irrigation simple—saving water, improving yields, and empowering communities.
           </p>
         </div>
 

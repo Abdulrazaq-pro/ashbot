@@ -34,49 +34,51 @@ interface FeatureProps {
 }
 
 const routeList: RouteProps[] = [
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
-  {
-    href: "#team",
-    label: "Team",
-  },
-  {
-    href: "#contact",
-    label: "Contact",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+  { href: "#about", label: "About" },
+  { href: "#features", label: "Features" },
+  { href: "#impact", label: "Impact" },
+  { href: "#faq", label: "FAQ" },
 ];
 
 const featureList: FeatureProps[] = [
   {
-    title: "Showcase Your Value ",
-    description: "Highlight how your product solves user problems.",
+    title: "AI-Based Irrigation",
+    description:
+      "Smartly monitors soil moisture and automatically waters crops when needed.",
   },
   {
-    title: "Build Trust",
+    title: "Real-Time Monitoring",
     description:
-      "Leverages social proof elements to establish trust and credibility.",
+      "Farmers can view live soil data and water usage directly from their phones.",
   },
   {
-    title: "Capture Leads",
+    title: "Water Conservation",
     description:
-      "Make your lead capture form visually appealing and strategically.",
+      "Designed to save up to 40% of water while improving crop yield.",
+  },
+  {
+    title: "Affordable for Small Farms",
+    description:
+      "Subsidized and distributed in partnership with NGOs and governments.",
   },
 ];
+
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <header className="shadow-inner bg-opacity-15 w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl top-5 mx-auto sticky border border-secondary z-40 rounded-2xl flex justify-between items-center p-2 bg-card">
-      <Link href="/" className="font-bold text-lg flex items-center">
-        <ChevronsDown className="bg-gradient-to-tr border-secondary from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-        Shadcn
+      <Link href="/" className="font-bold text-lg flex items-center gap-2">
+        <div className="w-12 h-12 flex items-center justify-center">
+          <img
+            src="/logo.png"
+            alt="GreenFlow logo"
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <span className="text-xl tracking-tight">GreenFlow</span>
       </Link>
+
       {/* <!-- Mobile --> */}
       <div className="flex items-center lg:hidden">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>

@@ -10,32 +10,36 @@ enum ProService {
   YES = 1,
   NO = 0,
 }
+
 interface ServiceProps {
   title: string;
   pro: ProService;
   description: string;
 }
+
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Custom IoT Setup",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "We help you configure sensors and controllers to fit your unique farm layout and crop type.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Data Insights Dashboard",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Monitor soil moisture, weather, and irrigation patterns with a clean, easy-to-use dashboard.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
+    title: "AI-Powered Recommendations",
+    description:
+      "Get smart watering and planting suggestions to boost yield and reduce water usage.",
+    pro: 1,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Cloud-Based Monitoring",
+    description:
+      "Access all your farm data remotely from any device with secure cloud synchronization.",
     pro: 1,
   },
 ];
@@ -48,13 +52,13 @@ export const ServicesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+        Empowering Smarter Farms
       </h2>
+
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+        GreenFlow offers tailored tools and AI-driven support to help farmers
+        save time, cut costs, and maximize productivity sustainably.
       </h3>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
         {serviceList.map(({ title, description, pro }) => (
@@ -66,6 +70,7 @@ export const ServicesSection = () => {
               <CardTitle>{title}</CardTitle>
               <CardDescription>{description}</CardDescription>
             </CardHeader>
+
             <Badge
               data-pro={ProService.YES === pro}
               variant="secondary"

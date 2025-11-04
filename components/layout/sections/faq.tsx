@@ -13,35 +13,37 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What is GreenFlow?",
+    answer:
+      "GreenFlow is an AI-powered smart irrigation system designed to help African farmers save water and boost crop yield through automated soil moisture monitoring and data-driven watering.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "How does GreenFlow work?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "It uses soil moisture sensors and an ESP32 controller to track water levels in real time. The system automatically activates irrigation when the soil is dry and stops when it’s optimal.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Do I need internet access to use it?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "GreenFlow connects via Wi-Fi, but basic irrigation automation can still run offline. When online, data syncs to the dashboard for monitoring and analytics.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Can I monitor my farm remotely?",
+    answer:
+      "Yes. Through our web and mobile dashboard, you can view soil conditions, water usage, and irrigation status in real time from anywhere.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "Is GreenFlow affordable for small farmers?",
+    answer:
+      "Absolutely. GreenFlow was built with affordability in mind. It’s cost-effective, energy-efficient, and easy to install for smallholder farmers.",
     value: "item-5",
   },
 ];
+
 
 export const FAQSection = () => {
   return (

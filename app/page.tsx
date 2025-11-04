@@ -1,15 +1,22 @@
+import Container from "@/components/Container";
 import { BenefitsSection } from "@/components/layout/sections/benefits";
 import { CommunitySection } from "@/components/layout/sections/community";
 import { ContactSection } from "@/components/layout/sections/contact";
+import CTA from "@/components/layout/sections/CTA.tsx";
 import { FAQSection } from "@/components/layout/sections/faq";
 import { FeaturesSection } from "@/components/layout/sections/features";
 import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
+import Performance from "@/components/layout/sections/Performance";
 import { PricingSection } from "@/components/layout/sections/pricing";
 import { ServicesSection } from "@/components/layout/sections/services";
 import { SponsorsSection } from "@/components/layout/sections/sponsors";
 import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
+import VideoComparison from "@/components/layout/sections/Video";
+import { WaitlistExperience } from "@/components/layout/sections/waitlist/Waitlist";
+import CardStackExample from "./test/page";
+import { Waitlist } from "@/components/layout/sections/Waitlist";
 
 export const metadata = {
   title: "Shadcn - Landing template",
@@ -41,7 +48,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <HeroSection />
       <SponsorsSection />
       <BenefitsSection />
@@ -51,9 +58,18 @@ export default function Home() {
       <TeamSection />
       <CommunitySection />
       <PricingSection />
-      <ContactSection />
+      <Container>
+        <CTA />
+      </Container>
+      <CardStackExample/>
+      <Waitlist/>
+      <VideoComparison />
+      <Performance/>
+      {/* <ContactSection /> */}
+      {/* <WaitlistExperience/> */}
       <FAQSection />
       <FooterSection />
-    </>
+
+    </div>
   );
 }

@@ -10,40 +10,40 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "Droplets",
+    title: "Smart Irrigation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Automatically adjusts watering schedules based on soil moisture and weather data to reduce water waste.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "Wifi",
+    title: "IoT Connectivity",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Seamlessly connects sensors and controllers via Wi-Fi, enabling real-time monitoring from any device.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "Cpu",
+    title: "AI Optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Uses machine learning to analyze soil and crop data for improved water efficiency and yield prediction.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "Leaf",
+    title: "Sustainable Farming",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Promotes eco-friendly water use, helping farmers conserve resources while improving productivity.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
+    icon: "Smartphone",
+    title: "Mobile Dashboard",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Monitor moisture levels, system performance, and irrigation history directly from your smartphone.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "Users",
+    title: "Community Impact",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Works with local NGOs and youths to distribute, maintain, and build local expertise in smart farming.",
   },
 ];
 
@@ -55,13 +55,13 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        What Makes GreenFlow Stand Out
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        GreenFlow combines AI, IoT, and sustainability to give farmers smarter
+        control over irrigation — saving water, boosting yields, and empowering
+        communities.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
