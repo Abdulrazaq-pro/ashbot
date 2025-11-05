@@ -57,14 +57,14 @@ export default function Home() {
       <TestimonialSection />
       <TeamSection />
       <CommunitySection />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <Container>
         <CTA />
       </Container>
-      <CardStackExample/>
-      <Waitlist/>
+      {/* <CardStackExample/> */}
+      {/* <Waitlist/> */}
       <VideoComparison />
-      <Performance/>
+      {/* <Performance/> */}
       {/* <ContactSection /> */}
       {/* <WaitlistExperience/> */}
       <FAQSection />

@@ -137,7 +137,7 @@ export const Navbar = () => {
             <NavigationMenuContent>
               <div className="grid w-[600px] grid-cols-2 gap-5 p-4">
                 <Image
-                  src="https://avatars.githubusercontent.com/u/75042455?v=4"
+                  src="/logo.png"
                   alt="RadixLogo"
                   className="h-full w-full rounded-md object-cover"
                   width={600}
@@ -173,7 +173,7 @@ export const Navbar = () => {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-
+{/* 
       <div className="hidden lg:flex">
         <ToggleTheme />
 
@@ -186,7 +186,7 @@ export const Navbar = () => {
             <Github className="size-5" />
           </Link>
         </Button>
-      </div>
+      </div> */}
     </header>
   );
 };

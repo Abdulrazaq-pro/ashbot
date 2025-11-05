@@ -19,15 +19,15 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom IoT Setup",
+    title: "IoT Setup",
     description:
       "We help you configure sensors and controllers to fit your unique farm layout and crop type.",
     pro: 0,
   },
   {
-    title: "Data Insights Dashboard",
+    title: "Functional Features",
     description:
-      "Monitor soil moisture, weather, and irrigation patterns with a clean, easy-to-use dashboard.",
+      "Monitor soil moisture, weather, and irrigation patterns and acts based on real-time data.",
     pro: 0,
   },
   {
@@ -46,7 +46,7 @@ const serviceList: ServiceProps[] = [
 
 export const ServicesSection = () => {
   return (
-    <section id="services" className="container py-24 sm:py-32">
+    <section id="services" className="container bg-white py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
         Services
       </h2>
@@ -76,7 +76,7 @@ export const ServicesSection = () => {
               variant="secondary"
               className="absolute -top-2 -right-3 data-[pro=false]:hidden"
             >
-              PRO
+              Future
             </Badge>
           </Card>
         ))}

@@ -26,36 +26,36 @@ export const TeamSection = () => {
    
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Evan",
-      lastName: "James",
-      positions: ["Backend Developer"],
+        "/aisha.png",
+      firstName: "Aisha",
+      lastName: "Ilham",
+      positions: ["Team Lead and Hardware Engineer"],
       socialNetworks: [
-        {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "LinkedIn",
+        //   url: "https://www.linkedin.com/in/",
+        // },
+        // {
+        //   name: "Github",
+        //   url: "https://github.com/leoMirandaa",
+        // },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      firstName: "Pam",
-      lastName: "Taylor",
-      positions: ["Fullstack Developer", "UX Researcher"],
+        "/abdulrazaq.png",
+      firstName: "Abdulrazaq",
+      lastName: "Adisa",
+      positions: ["Software and IoT Engineer", "Fullstack Developer"],
       socialNetworks: [
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
   ];

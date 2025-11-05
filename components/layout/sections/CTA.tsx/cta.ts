@@ -1,6 +1,7 @@
 export const ctaDetails = {
-    heading: 'Join Over 1 Million Users To Transform Your Finances',
-    subheading: 'Your journey to financial freedom starts here. Download Finwise today and take the first step towards a brighter financial future!',
-    appStoreUrl: '#',
-    googlePlayUrl: '#'
+    heading: 'Help Us Bring Smart Irrigation to 1 Million African Farmers',
+    subheading: 'The future of sustainable agriculture is being built right now. GreenFlow is transforming how farmers grow crops, save water, and secure their livelihoods—one farm at a time.',
+    // Remove app store links since GreenFlow isn't a consumer app
+    // appStoreUrl: '#',
+    // googlePlayUrl: '#'
 }

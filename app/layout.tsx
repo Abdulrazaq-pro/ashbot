@@ -18,11 +18,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      <body className={cn("min-h-screen bg-neutral-100 dark:bg-neutral-950", inter.className)}>
+      <body className={cn("min-h-screen bg-neutral-100 ", inter.className)}>
         <ThemeProvider
+          // attribute="class"
+          // defaultTheme="system"
+          // enableSystem
+          // disableTransitionOnChange
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light" // force light theme
+          enableSystem={false} // disable system-based theme switching
           disableTransitionOnChange
         >
           <Navbar />
